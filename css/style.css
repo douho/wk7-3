@@ -1,0 +1,414 @@
+body{
+    background-color: #FFE0B3;
+}
+header{
+    background-color: #fff;
+    position: absolute;
+    width: 1280px;
+    height: 128px;
+    top: 0;
+    left: 0;
+}
+banner{
+    box-sizing: border-box;
+    width: 1280px;
+    height: 617px;
+    padding-top: 41px;
+    padding-left: 0;
+    padding-bottom: 60px;
+}
+article{
+    position: absolute;
+    left: 0;
+    width: 1280px;
+    height: 563px;
+    padding-bottom: 25px;
+    margin-top: 745px;
+    display: flex;
+    justify-content: space-between;
+
+}
+footer{
+    background-color: #B0A184;
+    box-sizing: border-box;
+    width: 1280px;
+    height: 255px;
+    position: absolute;
+    left: 0;
+    top: 1308px;
+    display: flex;
+    padding-bottom: 21px;
+}
+.title_logo{
+    position: absolute;
+    width: 199px;
+    height: 68px;
+    left: 15px;
+    top: 41px;
+}
+.title_shopname{
+    background-color: #E4E4E4;
+    position: absolute;
+    box-sizing: border-box;
+    width: 185px;
+    height: 68px;
+    left: 257px;
+    top: 41px;
+    line-height: 43px;
+    text-align: center;
+    padding: 13px 23px 12px 22px;
+}
+.title_shopname_name{
+    box-sizing: border-box;
+    width: 140px;
+    height: 43px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    color: #8A8A8A;
+    font-size: 36px;
+    margin: 0px ;
+}
+.title_language{
+    position: absolute;
+    box-sizing: border-box;
+    width: 185px;
+    height: 68px;
+    left: 676px;
+    top: 43px;
+    line-height: 43px;
+    text-align: center;
+    padding: 13px 23px 12px 12px;
+}
+.language{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    color: #8A8A8A;
+    font-size: 36px;
+    float:left;
+    position: relative;
+    background-color: transparent;
+    border-width:0px;
+    border-top-style: none; 
+    border-right-style: none; 
+    border-left-style: none; 
+    border-bottom-style: none;
+}
+.title_discount{
+    position: absolute;
+    box-sizing: border-box;
+    width: 185px;
+    height: 68px;
+    left: 883px;
+    top: 43px;
+    line-height: 43px;
+    text-align: center;
+    padding: 13px 10px 12px;
+}
+.title_discount_plan{
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+    width: 165px;
+    height: 43px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    color: #8A8A8A;
+    font-size: 36px;
+    margin: 0px ;
+}
+.title_discount_plan:hover{
+    color: #B0A184;
+}
+.title_discount:active{
+    background-color: #ffe599ff;
+}
+.title_discount_plan:active{
+    color: #000000;
+}
+.title_buy{
+    background-color: #FFE0B3;
+    position: absolute;
+    box-sizing: border-box;
+    width: 185px;
+    height: 68px;
+    left: 1080px;
+    top: 41px;
+    line-height: 43px;
+    text-align: center;
+    padding: 13px 10px 12px;
+}
+.title_buy_tel{
+    width: 165px;
+    height: 43px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+    color: #8A8A8A;
+    text-decoration: none;
+    font-size: 36px;
+    margin: 0px ;
+}
+.title_buy:hover{
+    background-color: #f1c232ff;
+}
+.title_buy_tel:hover{
+    color: #ffffff;
+}
+.title_buy:active{
+    background-color: #ffe599ff;
+}
+.title_buy_tel:active{
+    color: #000000;
+}
+.banner_bg{
+    position: absolute;
+    top: 169px;
+    left: 0;
+}
+.banner_left{
+    position: absolute;
+    background-color: rgba(210, 209, 209, 0.7);
+    width: 427px;
+    height: 241px;
+    top: 200px;
+    left: 124px;
+}
+.banner_left_shopname{
+    width: 175px;
+    height: 55px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    color: #F6F1F1;
+    font-size: 48px;
+    margin: 40px 126px 0px 126px;
+    text-align: center;
+}
+.banner_left_hotel{
+    width: 320px;
+    height: 40px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    color: #F6F1F1;
+    font-size: 36px;
+    margin: 44px 53px 62px 54px;
+    text-align: center;
+}
+.banner_right{
+    position: absolute;
+    width: 486px;
+    height: 304px;
+    top: 194px;
+    left: 772px;
+    background-color: rgba(255, 224, 179, 0.83);
+}
+.banner_right_img{
+    width: 315px;
+    height: 227px;
+    margin: 20px 86px 0px 85px;
+}
+.banner_right_vistor{
+    width: 72px;
+    height: 42px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    color: #8A8A8A;
+    font-size: 36px;
+    text-align: center;
+    margin: -102px 119px 0px 124px;
+}
+.banner_right_memberlog{
+    width: 202px;
+    height: 42px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    color: #8A8A8A;
+    font-size: 36px;
+    text-align: center;
+    margin: -49px 142px 15px 142px;
+}
+.article_left{
+    box-sizing: border-box;
+    background-color: #ffffff;
+    width: 630px;
+    height: 538px;
+    padding: 37px 18px 29px 17px;
+}
+.article_left_branchname{
+    width: 365px;
+    height: 75px;
+    margin-right: 111px;
+    margin-left: 119px;
+}
+.article_left_branchname_name{
+    font-size: 64px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    color: #8A8A8A ;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.article_left_line{
+    width: 595px;
+    height: 5px;
+    background-color: #B0A184;
+    margin-top: 34px;
+    margin-bottom: 48px;
+}
+.article_left_int{
+    width: 590px;
+    height: 150px;
+    margin-left: 5px;
+    margin-bottom: 36px;
+}
+.article_left_int_words{
+    font-size: 22px;
+    font-family: Andada SC;
+    color: #8A8A8A ;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.article_left_img{
+    width: 595px;
+    height: 124px;
+    margin-bottom: 29px;
+    display: flex;    
+    flex-direction: row;
+    justify-content: space-between;
+}
+.article_right{
+    box-sizing: border-box;
+    background-color: #ffffff;
+    width: 630px;
+    height: 538px;
+    padding: 37px 18px 113px 17px;
+}
+.article_right_booking{
+    width: 256px;
+    height: 75px;
+    margin-right: 169px;
+    margin-left: 170px;
+}
+.article_right_booking_online{
+    font-size: 64px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    color: #8A8A8A ;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.article_right_line{
+    width: 595px;
+    height: 5px;
+    background-color: #B0A184;
+    margin-top: 34px;
+    margin-bottom: 48px;
+}
+.booking_upper{
+    margin-right: 50px;
+    margin-left: 51px;
+    display: flex;
+    justify-content: space-between;
+}
+.booking{
+    width: 121px;
+    height: 32px;
+}
+.booking_words1{
+    font-size: 24px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    text-align: center;
+    color: #8A8A8A;
+    margin-top: 0;
+}
+.booking_bg{
+    box-sizing: border-box;
+    width: 121px;
+    height: 29px;
+    background-color: #F4F0F0;
+    margin-top: 21px;
+}
+.booking_sel{
+    width: 121px;
+    height: 29px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    color: #9F9E8A;
+    font-size: 28px;
+    float:left;
+    line-height: 29px;
+    position: relative;
+    background-color: transparent;
+    border-width:0px;
+    border-top-style: none; 
+    border-right-style: none; 
+    border-left-style: none; 
+    border-bottom-style: none;
+    text-align: center;
+    appearance:none;
+}
+.booking_lower{
+    width: 368px;
+    height: 102px;
+    margin-left: 114px;
+    margin-right: 113px;
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+.booking_time{
+    width: 121px;
+    height: 32px;
+    margin-bottom: 30px;
+}
+.booking_words2{
+    font-size: 28px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    text-align: center;
+    color: #8A8A8A;
+    margin-top: 0;
+}
+.bkdate_bg{
+    width: 121px;
+    height: 41px;
+    background-color: #F4F0F0;
+}
+.choosedate{
+    width: 121px;
+    height: 40px;
+    color: #9F9E8A;
+    font-size: 13px;
+    position: relative;
+    background-color: transparent;
+    border-width:0px;
+    border-top-style: none; 
+    border-right-style: none; 
+    border-left-style: none; 
+    border-bottom-style: none;
+}
+.traffic{
+    width: 160px;
+    height: 44px;
+    margin: 190px 22px 0px 47px;
+}
+.traffic_wrd{
+    font-size: 36px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    color: #FFDFC1;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.map{
+    margin: 14px 468px 0px 0px;
+}
+.footer_right{
+    width: 396px;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.footer_shop{
+    width: 200px;
+    height: 60px;
+    margin-top: 44px;
+    margin-bottom: 11px;
+}
+.footer_shop_name{
+    font-size: 24px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #FFDFC1;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+.footer_contact{
+    width: 396px;
+    height: 119px;
+    margin-bottom: 0;
+}
+.footer_contact_details{
+    font-size: 18px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
